@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="en_szkielet06_win"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="en_szkielet06_win">
+				<Option output="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/en_szkielet06_win.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ewa/programy/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="C:/Users/ewa/programy/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Users/ewa/programy/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/ewa/programy/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Users/ewa/programy/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Users/ewa/programy/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 en_szkielet06_win"/>
+					<CompileFile command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="en_szkielet06_win/fast">
+				<Option output="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/en_szkielet06_win.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ewa/programy/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="C:/Users/ewa/programy/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Users/ewa/programy/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/ewa/programy/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Users/ewa/programy/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Users/ewa/programy/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 en_szkielet06_win/fast"/>
+					<CompileFile command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ewa/programy/mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/allmodels.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/bricks.png">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/constants.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cube.cpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cube.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/detailed_cube.cpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/en_szkielet06_win.cbp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/en_szkielet06_win.layout">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/fshader.frag">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/fur.png">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glew/LICENSE.txt">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glew/include/GL/eglew.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glew/include/GL/glew.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glew/include/GL/glxew.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glew/include/GL/wglew.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glew/lib/glew32s.lib">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glfw/COPYING.txt">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glfw/include/GLFW/glfw3.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glfw/include/GLFW/glfw3native.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glfw/lib/libglfw3.a">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/CMakeLists.txt">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/common.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/_features.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/_fixes.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/_noise.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/_swizzle.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/_swizzle_func.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/_vectorize.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/compute_vector_relational.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/dummy.cpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_common.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_common_simd.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_exponential.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_exponential_simd.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_geometric.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_geometric_simd.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_integer.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_integer_simd.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_matrix.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_matrix_simd.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_packing.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_packing_simd.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_trigonometric.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_trigonometric_simd.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_vector_relational.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/func_vector_relational_simd.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/glm.cpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/qualifier.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/setup.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_float.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_gentype.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_gentype.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_half.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_half.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_int.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat2x2.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat2x2.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat2x3.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat2x3.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat2x4.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat2x4.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat3x2.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat3x2.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat3x3.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat3x3.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat3x4.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat3x4.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat4x2.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat4x2.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat4x3.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat4x3.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat4x4.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat4x4.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_mat4x4_simd.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_vec.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_vec.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_vec1.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_vec1.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_vec2.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_vec2.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_vec3.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_vec3.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_vec4.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_vec4.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/detail/type_vec4_simd.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/exponential.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/ext.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/ext/vec1.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/ext/vec1.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/ext/vector_relational.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/ext/vector_relational.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/fwd.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/geometric.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/glm.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/bitfield.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/bitfield.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/color_space.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/color_space.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/constants.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/constants.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/epsilon.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/epsilon.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/integer.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/integer.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/matrix_access.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/matrix_access.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/matrix_integer.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/matrix_inverse.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/matrix_inverse.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/matrix_transform.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/matrix_transform.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/noise.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/noise.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/packing.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/packing.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/quaternion.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/quaternion.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/quaternion_simd.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/random.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/random.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/reciprocal.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/reciprocal.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/round.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/round.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/type_aligned.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/type_precision.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/type_precision.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/type_ptr.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/type_ptr.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/ulp.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/ulp.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/vec1.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtc/vec1.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/associated_min_max.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/associated_min_max.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/bit.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/bit.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/closest_point.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/closest_point.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/color_encoding.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/color_encoding.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/color_space.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/color_space.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/color_space_YCoCg.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/color_space_YCoCg.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/common.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/common.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/compatibility.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/compatibility.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/component_wise.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/component_wise.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/dual_quaternion.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/dual_quaternion.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/euler_angles.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/euler_angles.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/extend.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/extend.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/extended_min_max.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/extended_min_max.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/exterior_product.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/exterior_product.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/fast_exponential.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/fast_exponential.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/fast_square_root.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/fast_square_root.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/fast_trigonometry.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/fast_trigonometry.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/float_notmalize.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/functions.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/functions.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/gradient_paint.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/gradient_paint.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/handed_coordinate_space.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/handed_coordinate_space.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/hash.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/hash.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/integer.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/integer.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/intersect.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/intersect.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/io.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/io.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/log_base.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/log_base.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_cross_product.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_cross_product.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_decompose.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_decompose.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_factorisation.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_factorisation.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_interpolation.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_interpolation.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_major_storage.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_major_storage.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_operation.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_operation.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_query.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_query.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_transform_2d.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/matrix_transform_2d.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/mixed_product.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/mixed_product.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/norm.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/norm.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/normal.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/normal.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/normalize_dot.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/normalize_dot.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/number_precision.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/number_precision.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/optimum_pow.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/optimum_pow.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/orthonormalize.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/orthonormalize.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/perpendicular.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/perpendicular.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/polar_coordinates.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/polar_coordinates.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/projection.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/projection.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/quaternion.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/quaternion.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/range.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/raw_data.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/raw_data.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/rotate_normalized_axis.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/rotate_normalized_axis.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/rotate_vector.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/rotate_vector.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/scalar_multiplication.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/scalar_relational.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/scalar_relational.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/spline.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/spline.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/std_based_type.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/std_based_type.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/string_cast.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/string_cast.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/texture.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/texture.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/transform.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/transform.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/transform2.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/transform2.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/type_aligned.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/type_aligned.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/type_trait.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/type_trait.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/vec_swizzle.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/vector_angle.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/vector_angle.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/vector_query.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/vector_query.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/wrap.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/gtx/wrap.inl">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/integer.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/mat2x2.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/mat2x3.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/mat2x4.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/mat3x2.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/mat3x3.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/mat3x4.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/mat4x2.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/mat4x3.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/mat4x4.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/matrix.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/packing.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/simd/common.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/simd/exponential.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/simd/geometric.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/simd/integer.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/simd/matrix.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/simd/packing.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/simd/platform.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/simd/trigonometric.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/simd/vector_relational.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/trigonometric.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/vec2.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/vec3.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/vec4.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/glm/vector_relational.hpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/gpl.txt">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/lodepng.cpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/lodepng.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/main_file.cpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/metal.png">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/metal_spec.png">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/model.cpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/model.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/rust.png">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/rust_nm.png">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/shaderprogram.cpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/shaderprogram.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/sky.png">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/stones.png">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/stones2.png">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/stones2_nm.png">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/stones_nm.png">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/teapot.cpp">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/teapot.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/tiger.png">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/torus.h">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/vshader.vert">
+			<Option target="en_szkielet06_win"/>
+		</Unit>
+		<Unit filename="C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
