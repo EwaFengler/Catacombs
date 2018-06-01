@@ -31,7 +31,8 @@ namespace Models {
 	}
 
 	void Tomb::readTexture(){
-    TexUtils::readTexture("metal.png");
+    tex0 = TexUtils::readTexture("metal.png");
+    tex1 = TexUtils::readTexture("metal_spec.png");
 	}
 
 	void Tomb::drawSolid() {

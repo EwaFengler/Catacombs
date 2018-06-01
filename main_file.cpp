@@ -109,11 +109,11 @@ void initOpenGLProgram(GLFWwindow* window) {
 
   Models::walls.readTexture();
   Models::floors.readTexture();
-  //Models::tomb.readTexture();
+  Models::tomb.readTexture();
 
   Models::walls.prepareModel(shaderProgram, vao);
   Models::floors.prepareModel(shaderProgram, vao);
- // Models::tomb.prepareModel(shaderProgram, vao);
+  Models::tomb.prepareModel(shaderProgram, vao);
 }
 
 //Freeing of resources
@@ -123,12 +123,12 @@ void freeOpenGLProgram() {
   glDeleteVertexArrays(1,&vao); //Delete VAO
 
   Models::walls.deleteVBOs();
-//Models::floors.deleteVBOs();
-  //Models::tomb.deleteVBOs();
+  Models::floors.deleteVBOs();
+  Models::tomb.deleteVBOs();
 
   Models::walls.deleteTexture();
- // Models::floors.deleteTexture();
- // Models::tomb.deleteTexture();
+  Models::floors.deleteTexture();
+  Models::tomb.deleteTexture();
 }
 
 //Procedure which draws the scene
@@ -168,10 +168,13 @@ void drawScene(GLFWwindow* window, float angle_x, float angle_y, float deltaTime
 
   //Compute model matrix
   glm::mat4 M = glm::mat4(1.0f);
+
   Models::walls.loadToShader(shaderProgram,vao);
   Models::walls.drawModel(vao,shaderProgram,P,V,M);
   Models::floors.loadToShader(shaderProgram,vao);
   Models::floors.drawModel(vao,shaderProgram,P,V,M);
+  Models::tomb.loadToShader(shaderProgram,vao);
+  Models::tomb.drawModel(vao,shaderProgram,P,V,M);
 
   //Swap front and back buffers
   glfwSwapBuffers(window);
