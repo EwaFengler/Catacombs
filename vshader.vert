@@ -8,7 +8,7 @@ uniform mat4 M;
 
 //Attributes
 in vec4 vertex; //vertex coordinates in model space
-in vec4 color;  //vertex color
+//in vec4 color;  //vertex color
 in vec4 normal; //vertex normal in model space
 in vec2 texCoord0; //texturing coordinates
 

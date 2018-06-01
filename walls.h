@@ -33,7 +33,6 @@ namespace Models {
 		extern float normals[];
 		extern float vertexNormals[];
 		extern float texCoords[];
-		extern float colors[];
 		extern unsigned int vertexCount;
 	}
 
@@ -42,6 +41,7 @@ namespace Models {
 			Walls();
 			virtual ~Walls();
 			virtual void drawSolid();
+			virtual void readTexture();
 	};
 
 	extern Walls walls;

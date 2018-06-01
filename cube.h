@@ -33,15 +33,15 @@ namespace Models {
 		extern float normals[];
 		extern float vertexNormals[];
 		extern float texCoords[];
-		extern float colors[];
 		extern unsigned int vertexCount;
-	} 
-	
+	}
+
 	class Cube: public Model {
 		public:
 			Cube();
 			virtual ~Cube();
 			virtual void drawSolid();
+			virtual void readTexture();
 	};
 
 	extern Cube cube;

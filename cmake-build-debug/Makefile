@@ -47,10 +47,10 @@ RM = C:\Users\ewa\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.4127.32\bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ewa\Downloads\en_szkielet06_win\en_szkielet06_win
+CMAKE_SOURCE_DIR = C:\Users\ewa\Desktop\kopiaGrafika\odJanka\en_szkielet06_win
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ewa\Downloads\en_szkielet06_win\en_szkielet06_win\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ewa\Desktop\kopiaGrafika\odJanka\en_szkielet06_win\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ewa\Downloads\en_szkielet06_win\en_szkielet06_win\cmake-build-debug\CMakeFiles C:\Users\ewa\Downloads\en_szkielet06_win\en_szkielet06_win\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ewa\Desktop\kopiaGrafika\odJanka\en_szkielet06_win\cmake-build-debug\CMakeFiles C:\Users\ewa\Desktop\kopiaGrafika\odJanka\en_szkielet06_win\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ewa\Downloads\en_szkielet06_win\en_szkielet06_win\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ewa\Desktop\kopiaGrafika\odJanka\en_szkielet06_win\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -148,33 +148,6 @@ cube.s: cube.cpp.s
 cube.cpp.s:
 	$(MAKE) -f CMakeFiles\en_szkielet06_win.dir\build.make CMakeFiles/en_szkielet06_win.dir/cube.cpp.s
 .PHONY : cube.cpp.s
-
-detailed_cube.obj: detailed_cube.cpp.obj
-
-.PHONY : detailed_cube.obj
-
-# target to build an object file
-detailed_cube.cpp.obj:
-	$(MAKE) -f CMakeFiles\en_szkielet06_win.dir\build.make CMakeFiles/en_szkielet06_win.dir/detailed_cube.cpp.obj
-.PHONY : detailed_cube.cpp.obj
-
-detailed_cube.i: detailed_cube.cpp.i
-
-.PHONY : detailed_cube.i
-
-# target to preprocess a source file
-detailed_cube.cpp.i:
-	$(MAKE) -f CMakeFiles\en_szkielet06_win.dir\build.make CMakeFiles/en_szkielet06_win.dir/detailed_cube.cpp.i
-.PHONY : detailed_cube.cpp.i
-
-detailed_cube.s: detailed_cube.cpp.s
-
-.PHONY : detailed_cube.s
-
-# target to generate assembly for a file
-detailed_cube.cpp.s:
-	$(MAKE) -f CMakeFiles\en_szkielet06_win.dir\build.make CMakeFiles/en_szkielet06_win.dir/detailed_cube.cpp.s
-.PHONY : detailed_cube.cpp.s
 
 glm/detail/dummy.obj: glm/detail/dummy.cpp.obj
 
@@ -338,33 +311,6 @@ shaderprogram.cpp.s:
 	$(MAKE) -f CMakeFiles\en_szkielet06_win.dir\build.make CMakeFiles/en_szkielet06_win.dir/shaderprogram.cpp.s
 .PHONY : shaderprogram.cpp.s
 
-teapot.obj: teapot.cpp.obj
-
-.PHONY : teapot.obj
-
-# target to build an object file
-teapot.cpp.obj:
-	$(MAKE) -f CMakeFiles\en_szkielet06_win.dir\build.make CMakeFiles/en_szkielet06_win.dir/teapot.cpp.obj
-.PHONY : teapot.cpp.obj
-
-teapot.i: teapot.cpp.i
-
-.PHONY : teapot.i
-
-# target to preprocess a source file
-teapot.cpp.i:
-	$(MAKE) -f CMakeFiles\en_szkielet06_win.dir\build.make CMakeFiles/en_szkielet06_win.dir/teapot.cpp.i
-.PHONY : teapot.cpp.i
-
-teapot.s: teapot.cpp.s
-
-.PHONY : teapot.s
-
-# target to generate assembly for a file
-teapot.cpp.s:
-	$(MAKE) -f CMakeFiles\en_szkielet06_win.dir\build.make CMakeFiles/en_szkielet06_win.dir/teapot.cpp.s
-.PHONY : teapot.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -377,9 +323,6 @@ help:
 	@echo ... cube.obj
 	@echo ... cube.i
 	@echo ... cube.s
-	@echo ... detailed_cube.obj
-	@echo ... detailed_cube.i
-	@echo ... detailed_cube.s
 	@echo ... glm/detail/dummy.obj
 	@echo ... glm/detail/dummy.i
 	@echo ... glm/detail/dummy.s
@@ -398,9 +341,6 @@ help:
 	@echo ... shaderprogram.obj
 	@echo ... shaderprogram.i
 	@echo ... shaderprogram.s
-	@echo ... teapot.obj
-	@echo ... teapot.i
-	@echo ... teapot.s
 .PHONY : help
 
 

@@ -24,11 +24,15 @@ namespace Models {
 		normals=FloorsInternal::normals;
 		vertexNormals=FloorsInternal::vertexNormals;
 		texCoords=FloorsInternal::texCoords;
-		colors=FloorsInternal::colors;
 		vertexCount=FloorsInternal::vertexCount;
 	}
 
 	Floors::~Floors() {
+	}
+
+	void Floors::readTexture(){
+    tex0 = TexUtils::readTexture("metal.png");
+    tex1 = TexUtils::readTexture("metal_spec.png");
 	}
 
 	void Floors::drawSolid() {
@@ -10665,10 +10669,6 @@ namespace Models {
 13.0841, -2.37983, -14.4001, 1.0,
 13.7312, -2.37983, -14.3149, 1.0,
 
-
-			};
-
-			float colors[]={
 
 			};
 

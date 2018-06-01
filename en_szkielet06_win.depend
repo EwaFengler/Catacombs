@@ -1155,17 +1155,21 @@
 1527505703 source:c:\users\johny\downloads\en_szkielet06_win\walls.cpp
 	"walls.h"
 
-1527531028 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\cube.cpp
+1527878930 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\cube.cpp
 	"cube.h"
 
-1527531028 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\cube.h
+1527878930 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\cube.h
 	"model.h"
 
-1527531026 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\model.h
-	<vector>
+1527879500 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\model.h
+	<GL/glew.h>
 	<glm/glm.hpp>
 	<GLFW/glfw3.h>
+	<glm/gtc/type_ptr.hpp>
 	"constants.h"
+	"shaderprogram.h"
+	"VBOUtils.h"
+	"TexUtils.h"
 
 1527531034 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\glm\glm.hpp
 	"detail/_fixes.hpp"
@@ -1634,10 +1638,10 @@
 
 1527531027 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\constants.h
 
-1527531027 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\floors.cpp
+1527879123 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\floors.cpp
 	"floors.h"
 
-1527531025 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\floors.h
+1527878930 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\floors.h
 	"model.h"
 
 1527531027 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\lodepng.cpp
@@ -1654,7 +1658,7 @@
 	<iostream>
 	"lodepng.h"
 
-1527531025 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\main_file.cpp
+1527879167 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\main_file.cpp
 	<GL/glew.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -1664,7 +1668,6 @@
 	<stdio.h>
 	"constants.h"
 	"allmodels.h"
-	"lodepng.h"
 	"shaderprogram.h"
 
 1527531057 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\glew\include\gl\glew.h
@@ -1759,25 +1762,45 @@
 	"walls.h"
 	"tomb.h"
 
-1527531026 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\walls.h
+1527878930 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\walls.h
 	"model.h"
 
-1527531025 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\tomb.h
+1527878930 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\tomb.h
 	"model.h"
 
 1527531025 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\shaderprogram.h
 	"GL/glew.h"
 	"stdio.h"
 
-1527531025 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\model.cpp
+1527879018 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\model.cpp
 	"model.h"
 
 1527531025 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\shaderprogram.cpp
 	"shaderprogram.h"
 
-1527531026 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\tomb.cpp
+1527878930 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\tomb.cpp
 	"tomb.h"
 
-1527531027 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\walls.cpp
+1527878930 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\walls.cpp
 	"walls.h"
+
+1527855824 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\glutils.cpp
+	"GLUtils.h"
+
+1527861439 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\glutils.h
+	"shaderprogram.h"
+
+1527866448 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\vboutils.h
+	"shaderprogram.h"
+
+1527867578 c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\texutils.h
+	<GL/glew.h>
+	<vector>
+	"lodepng.h"
+
+1527865688 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\texutils.cpp
+	"TexUtils.h"
+
+1527865211 source:c:\users\ewa\desktop\kopiagrafika\odjanka\en_szkielet06_win\vboutils.cpp
+	"VBOUtils.h"
 

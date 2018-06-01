@@ -278,15 +278,12 @@ add_executable(en_szkielet06_win
         glm/vec4.hpp
         glm/vector_relational.hpp
         allmodels.h
-        bricks.png
         constants.h
         cube.cpp
         cube.h
-        detailed_cube.cpp
         en_szkielet06_win.cbp
         en_szkielet06_win.layout
         fshader.frag
-        fur.png
         gpl.txt
         lodepng.cpp
         lodepng.h
@@ -299,13 +296,4 @@ add_executable(en_szkielet06_win
         rust_nm.png
         shaderprogram.cpp
         shaderprogram.h
-        sky.png
-        stones.png
-        stones2.png
-        stones2_nm.png
-        stones_nm.png
-        teapot.cpp
-        teapot.h
-        tiger.png
-        torus.h
         vshader.vert)

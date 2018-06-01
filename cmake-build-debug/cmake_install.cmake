@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win
+# Install script for directory: C:/Users/ewa/Desktop/kopiaGrafika/odJanka/en_szkielet06_win
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/ewa/Downloads/en_szkielet06_win/en_szkielet06_win/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/ewa/Desktop/kopiaGrafika/odJanka/en_szkielet06_win/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

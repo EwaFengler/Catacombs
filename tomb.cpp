@@ -24,11 +24,14 @@ namespace Models {
 		normals=TombInternal::normals;
 		vertexNormals=TombInternal::vertexNormals;
 		texCoords=TombInternal::texCoords;
-		colors=TombInternal::colors;
 		vertexCount=TombInternal::vertexCount;
 	}
 
 	Tomb::~Tomb() {
+	}
+
+	void Tomb::readTexture(){
+    TexUtils::readTexture("metal.png");
 	}
 
 	void Tomb::drawSolid() {
@@ -8506,9 +8509,6 @@ namespace Models {
 0.355, 1.17626, 0.724921, 1.0,
 
 
-			};
-
-			float colors[]={
 			};
 
 			float normals[]={
