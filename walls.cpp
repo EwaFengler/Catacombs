@@ -30,8 +30,8 @@ Walls::Walls() {
 Walls::~Walls() {}
 
 void Walls::readTexture() {
-  tex0 = TexUtils::readTexture("metal.png");
-  tex1 = TexUtils::readTexture("metal_spec.png");
+  tex0 = TexUtils::readTexture("wall00.png");
+  tex1 = TexUtils::readTexture("wall00.png");
 }
 
 void Walls::drawSolid() {

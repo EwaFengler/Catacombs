@@ -169,8 +169,8 @@ void drawScene(GLFWwindow* window, float angle_x, float angle_y, float deltaTime
   //Compute model matrix
   glm::mat4 M = glm::mat4(1.0f);
 
-  //Models::walls.loadToShader(shaderProgram,vao);
-  //Models::walls.drawModel(vao,shaderProgram,P,V,M);
+  Models::walls.loadToShader(shaderProgram,vao);
+  Models::walls.drawModel(vao,shaderProgram,P,V,M);
   Models::floors.loadToShader(shaderProgram,vao);
   Models::floors.drawModel(vao,shaderProgram,P,V,M);
 

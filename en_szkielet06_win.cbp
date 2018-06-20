@@ -46,6 +46,10 @@
 			<Add directory="glfw/lib" />
 			<Add directory="glew/lib" />
 		</Linker>
+		<Unit filename="TexUtils.cpp" />
+		<Unit filename="TexUtils.h" />
+		<Unit filename="VBOUtils.cpp" />
+		<Unit filename="VBOUtils.h" />
 		<Unit filename="allmodels.h" />
 		<Unit filename="constants.h" />
 		<Unit filename="cube.cpp" />

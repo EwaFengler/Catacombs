@@ -31,8 +31,8 @@ namespace Models {
 	}
 
 	void Floors::readTexture(){
-    tex0 = TexUtils::readTexture("metal.png");
-    tex1 = TexUtils::readTexture("metal_spec.png");
+    tex0 = TexUtils::readTexture("floor01.png");
+    tex1 = TexUtils::readTexture("floor01.png");
 	}
 
 	void Floors::drawSolid() {
