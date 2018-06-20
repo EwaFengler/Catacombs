@@ -34,6 +34,7 @@ namespace Models {
 		extern float vertexNormals[];
 		extern float texCoords[];
 		extern unsigned int vertexCount;
+		extern float positions[];
 	}
 
 	class Tomb: public Model {

@@ -169,12 +169,23 @@ void drawScene(GLFWwindow* window, float angle_x, float angle_y, float deltaTime
   //Compute model matrix
   glm::mat4 M = glm::mat4(1.0f);
 
-  Models::walls.loadToShader(shaderProgram,vao);
-  Models::walls.drawModel(vao,shaderProgram,P,V,M);
+  //Models::walls.loadToShader(shaderProgram,vao);
+  //Models::walls.drawModel(vao,shaderProgram,P,V,M);
   Models::floors.loadToShader(shaderProgram,vao);
   Models::floors.drawModel(vao,shaderProgram,P,V,M);
+
   Models::tomb.loadToShader(shaderProgram,vao);
-  Models::tomb.drawModel(vao,shaderProgram,P,V,M);
+
+  for(int i = 0; i < 372; i+=4){
+    glm::mat4 Mt = M;
+    Mt = translate(Mt, glm::vec3(Models::TombInternal::positions[i],
+                                 Models::TombInternal::positions[i+1],
+                                 Models::TombInternal::positions[i+2]));
+    Mt = rotate(Mt, -Models::TombInternal::positions[i+3], glm::vec3(0.0f, 1.0f, 0.0f));
+    Models::tomb.drawModel(vao,shaderProgram,P,V,Mt);
+  }
+
+
 
   //Swap front and back buffers
   glfwSwapBuffers(window);
