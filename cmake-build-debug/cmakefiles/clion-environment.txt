@@ -1,4 +1,0 @@
-ToolSet: w64 5.0@C:\Users\ewa\programy\mingw\mingw32
-Options: 
-
-Options:

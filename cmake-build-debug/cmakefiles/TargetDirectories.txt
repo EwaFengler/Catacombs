@@ -1,3 +1,0 @@
-C:/Users/ewa/Desktop/kopiaGrafika/odJanka/en_szkielet06_win/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/ewa/Desktop/kopiaGrafika/odJanka/en_szkielet06_win/cmake-build-debug/CMakeFiles/en_szkielet06_win.dir
-C:/Users/ewa/Desktop/kopiaGrafika/odJanka/en_szkielet06_win/cmake-build-debug/CMakeFiles/edit_cache.dir
