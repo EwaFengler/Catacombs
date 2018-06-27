@@ -111,9 +111,9 @@ void initOpenGLProgram(GLFWwindow* window) {
   Models::floors.readTexture();
   Models::tomb.readTexture();
 
-  Models::walls.prepareModel(shaderProgram, vao);
-  Models::floors.prepareModel(shaderProgram, vao);
-  Models::tomb.prepareModel(shaderProgram, vao);
+  Models::walls.makeBuffers(shaderProgram, vao);
+  Models::floors.makeBuffers(shaderProgram, vao);
+  Models::tomb.makeBuffers(shaderProgram, vao);
 }
 
 //Freeing of resources
@@ -168,9 +168,8 @@ void drawScene(GLFWwindow* window, float angle_x, float angle_y, float deltaTime
 
   //Compute model matrix
   glm::mat4 M = glm::mat4(1.0f);
-
+  //passing light position to shaders
   glUniform4f(shaderProgram->getUniformLocation("lightPosition"), position.x - direction.x, position.y - direction.y, position.z - direction.z, 1.0);
-  //glUniform4f(shaderProgram->getUniformLocation("lightPosition"), position.x, position.y, position.z, 1.0);
 
   Models::walls.loadToShader(shaderProgram,vao);
   Models::walls.drawModel(vao,shaderProgram,P,V,M);
@@ -178,7 +177,7 @@ void drawScene(GLFWwindow* window, float angle_x, float angle_y, float deltaTime
   Models::floors.drawModel(vao,shaderProgram,P,V,M);
 
   Models::tomb.loadToShader(shaderProgram,vao);
-
+  //drawing all tombs
   for(int i = 0; i < 372; i+=4){
     glm::mat4 Mt = M;
     Mt = translate(Mt, glm::vec3(Models::TombInternal::positions[i],
@@ -187,8 +186,6 @@ void drawScene(GLFWwindow* window, float angle_x, float angle_y, float deltaTime
     Mt = rotate(Mt, -Models::TombInternal::positions[i+3], glm::vec3(0.0f, 1.0f, 0.0f));
     Models::tomb.drawModel(vao,shaderProgram,P,V,Mt);
   }
-
-
 
   //Swap front and back buffers
   glfwSwapBuffers(window);

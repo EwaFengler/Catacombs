@@ -45,7 +45,7 @@ class Model {
 
   virtual void readTexture()=0;
 
-  virtual void prepareModel(ShaderProgram* shaderProgram, GLuint &vao);
+  virtual void makeBuffers(ShaderProgram* shaderProgram, GLuint &vao);
   virtual void loadToShader(ShaderProgram* shaderProgram, GLuint &vao);
   virtual void drawModel(GLuint vao, ShaderProgram *shaderProgram, glm::mat4 mP, glm::mat4 mV, glm::mat4 mM);
 

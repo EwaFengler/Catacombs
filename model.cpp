@@ -16,7 +16,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "model.h"
 
 namespace Models {
-  void Model::prepareModel(ShaderProgram* shaderProgram, GLuint &vao) {
+  void Model::makeBuffers(ShaderProgram* shaderProgram, GLuint &vao) {
 
     //Build VBO buffers with object data
     bufVertices=VBOUtils::makeBuffer(vertices, vertexCount, sizeof(float)*4);
