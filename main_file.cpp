@@ -142,7 +142,7 @@ void drawScene(GLFWwindow* window, float angle_x, float angle_y, float deltaTime
   verticalAngle   += mouseSpeed * deltaTime * float(WindowHeight/2 - ypos )*1.0e4;
   glfwSetCursorPos(window,WindowLenght/2, WindowHeight/2);//setting Cursor Position in the middle of the screen
 
-  glm::vec3 direction(
+  glm::vec3 direction (
     cos(verticalAngle) * sin(horizontalAngle),
     sin(verticalAngle),
     cos(verticalAngle) * cos(horizontalAngle)
@@ -168,6 +168,9 @@ void drawScene(GLFWwindow* window, float angle_x, float angle_y, float deltaTime
 
   //Compute model matrix
   glm::mat4 M = glm::mat4(1.0f);
+
+  glUniform4f(shaderProgram->getUniformLocation("lightPosition"), position.x - direction.x, position.y - direction.y, position.z - direction.z, 1.0);
+  //glUniform4f(shaderProgram->getUniformLocation("lightPosition"), position.x, position.y, position.z, 1.0);
 
   Models::walls.loadToShader(shaderProgram,vao);
   Models::walls.drawModel(vao,shaderProgram,P,V,M);

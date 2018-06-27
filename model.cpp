@@ -16,14 +16,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "model.h"
 
 namespace Models {
-  void Model::drawWire() {
-    glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
-
-    drawSolid();
-
-    glPolygonMode( GL_FRONT_AND_BACK, GL_FILL );
-  }
-
   void Model::prepareModel(ShaderProgram* shaderProgram, GLuint &vao) {
 
     //Build VBO buffers with object data

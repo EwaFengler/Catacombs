@@ -41,11 +41,7 @@ class Model {
   int vertexCount;
   float *vertices;
   float *normals;
-  float *vertexNormals;
   float *texCoords;
-
-  virtual void drawSolid()=0;
-  virtual void drawWire();
 
   virtual void readTexture()=0;
 

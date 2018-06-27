@@ -16,7 +16,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef ALL_MODELS_H
 #define ALL_MODELS_H
 
-#include "cube.h"
 #include "floors.h"
 #include "walls.h"
 #include "tomb.h"

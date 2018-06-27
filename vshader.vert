@@ -5,6 +5,9 @@ uniform mat4 P;
 uniform mat4 V;
 uniform mat4 M;
 
+uniform vec4 lightPosition;
+
+
 
 //Attributes
 in vec4 vertex; //vertex coordinates in model space
@@ -20,7 +23,7 @@ out vec2 iTexCoord0; //texturing coordinates
 
 void main(void) {
 
-    vec4 lp=vec4(0,0,-6,1); //Light position in the world space
+    vec4 lp = lightPosition;//Light position in the world space
 
     l=normalize(V*lp-V*M*vertex); //Light vector, eye space
     n=normalize(V*M*normal); //Normal vector, eye space

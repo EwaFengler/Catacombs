@@ -31,7 +31,6 @@ namespace Models {
 	namespace TombInternal {
 		extern float vertices[];
 		extern float normals[];
-		extern float vertexNormals[];
 		extern float texCoords[];
 		extern unsigned int vertexCount;
 		extern float positions[];
@@ -41,7 +40,6 @@ namespace Models {
 		public:
 			Tomb();
 			virtual ~Tomb();
-			virtual void drawSolid();
 			virtual void readTexture();
 	};
 

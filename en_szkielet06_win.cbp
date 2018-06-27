@@ -52,8 +52,6 @@
 		<Unit filename="VBOUtils.h" />
 		<Unit filename="allmodels.h" />
 		<Unit filename="constants.h" />
-		<Unit filename="cube.cpp" />
-		<Unit filename="cube.h" />
 		<Unit filename="floors.cpp" />
 		<Unit filename="floors.h" />
 		<Unit filename="fshader.frag" />

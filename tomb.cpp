@@ -22,7 +22,6 @@ namespace Models {
 	Tomb::Tomb() {
 		vertices=TombInternal::vertices;
 		normals=TombInternal::normals;
-		vertexNormals=TombInternal::vertexNormals;
 		texCoords=TombInternal::texCoords;
 		vertexCount=TombInternal::vertexCount;
 	}
@@ -33,27 +32,6 @@ namespace Models {
 	void Tomb::readTexture(){
     tex0 = TexUtils::readTexture("grave00.png");
     tex1 = TexUtils::readTexture("grave00.png");
-	}
-
-	void Tomb::drawSolid() {
-		glEnable(GL_NORMALIZE);
-
-		glEnableClientState(GL_VERTEX_ARRAY);
-		//glEnableClientState(GL_COLOR_ARRAY);
-		glEnableClientState(GL_NORMAL_ARRAY);
-		glEnableClientState(GL_TEXTURE_COORD_ARRAY);
-
-		glVertexPointer(4,GL_FLOAT,0,vertices);
-		//glColorPointer(4,GL_FLOAT,0,colors);
-		glNormalPointer(GL_FLOAT,sizeof(float)*4,vertexNormals);
-		glTexCoordPointer(2,GL_FLOAT,0,texCoords);
-
-		glDrawArrays(GL_TRIANGLES,0,vertexCount);
-
-		glDisableClientState(GL_VERTEX_ARRAY);
-		//glDisableClientState(GL_COLOR_ARRAY);
-		glDisableClientState(GL_NORMAL_ARRAY);
-		glDisableClientState(GL_TEXTURE_COORD_ARRAY);
 	}
 
 	namespace TombInternal {
@@ -16963,9 +16941,6 @@ namespace Models {
 0, 1, 0, 0.0,
 
 
-			};
-
-			float vertexNormals[]={
 			};
 
 			float texCoords[]={

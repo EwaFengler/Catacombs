@@ -31,7 +31,6 @@ namespace Models {
 	namespace FloorsInternal {
 		extern float vertices[];
 		extern float normals[];
-		extern float vertexNormals[];
 		extern float texCoords[];
 		extern unsigned int vertexCount;
 
@@ -42,7 +41,6 @@ namespace Models {
 		public:
 			Floors();
 			virtual ~Floors();
-			virtual void drawSolid();
 			virtual void readTexture();
 	};
 

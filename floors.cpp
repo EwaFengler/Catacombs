@@ -22,7 +22,6 @@ namespace Models {
 	Floors::Floors() {
 		vertices=FloorsInternal::vertices;
 		normals=FloorsInternal::normals;
-		vertexNormals=FloorsInternal::vertexNormals;
 		texCoords=FloorsInternal::texCoords;
 		vertexCount=FloorsInternal::vertexCount;
 	}
@@ -35,26 +34,6 @@ namespace Models {
     tex1 = TexUtils::readTexture("floor01.png");
 	}
 
-	void Floors::drawSolid() {
-		glEnable(GL_NORMALIZE);
-
-		glEnableClientState(GL_VERTEX_ARRAY);
-		//glEnableClientState(GL_COLOR_ARRAY);
-		glEnableClientState(GL_NORMAL_ARRAY);
-		glEnableClientState(GL_TEXTURE_COORD_ARRAY);
-
-		glVertexPointer(4,GL_FLOAT,0,vertices);
-		//glColorPointer(4,GL_FLOAT,0,colors);
-		glNormalPointer(GL_FLOAT,sizeof(float)*4,vertexNormals);
-		glTexCoordPointer(2,GL_FLOAT,0,texCoords);
-
-		glDrawArrays(GL_TRIANGLES,0,vertexCount);
-
-		glDisableClientState(GL_VERTEX_ARRAY);
-		//glDisableClientState(GL_COLOR_ARRAY);
-		glDisableClientState(GL_NORMAL_ARRAY);
-		glDisableClientState(GL_TEXTURE_COORD_ARRAY);
-	}
 
 	namespace FloorsInternal {
 			unsigned int vertexCount=11175;
@@ -22414,10 +22393,6 @@ namespace Models {
 9.96314e-16, 1, 5.57586e-15, 0.0,
 9.96314e-16, 1, 5.57586e-15, 0.0,
 9.96314e-16, 1, 5.57586e-15, 0.0,
-			};
-
-			float vertexNormals[]={
-
 			};
 
 			float texCoords[]={

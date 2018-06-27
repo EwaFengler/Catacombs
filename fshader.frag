@@ -13,11 +13,11 @@ uniform sampler2D textureMap0;
 uniform sampler2D textureMap1;
 
 void main(void) {
-    vec4 ka=vec4(0,0,0,0); //Object color in the ambient light
+    vec4 ka=vec4(0.05,0.05,0.05,1); //Object color in the ambient light
     vec4 kd=texture(textureMap0,iTexCoord0); //Object color in the diffused light
     vec4 ks=texture(textureMap1,iTexCoord0); //Object color in the specular light
 
-    vec4 la=vec4(0,0,0,0); //Ambient light color
+    vec4 la=vec4(1,1,1,1); //Ambient light color
     vec4 ld=vec4(1,1,1,1); //Diffuse light color
     vec4 ls=vec4(1,1,1,0); //Specular light color
 
