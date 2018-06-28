@@ -43,6 +43,10 @@ float verticalAngle = 0.0f;// vertical angle : 0, look at the horizon
 float mouseSpeed = 0.5f;
 
 glm::vec3 position = glm::vec3( 0, 1.5, 0 );
+float positionY = 1.5;
+
+short currentTriangle = 1769;
+bool cheatMode = false;
 //---------------------------------
 
 
@@ -75,6 +79,8 @@ void key_callback(GLFWwindow* window, int key,
       speed_x = 3.14 * shift_speed;
     if (key == GLFW_KEY_ESCAPE)
       glfwSetWindowShouldClose(window, GLFW_TRUE);
+    if (key == GLFW_KEY_LEFT_CONTROL)
+      cheatMode = true;
   }
 
 
@@ -93,7 +99,35 @@ void key_callback(GLFWwindow* window, int key,
       shift_speed = 1;
 
     }
+    if (key == GLFW_KEY_LEFT_CONTROL)
+      cheatMode = false;
   }
+}
+
+float isOnTriangle(short triangleNum, glm::vec3 position){
+
+  float Ax = Models::FloorsInternal::vertices[triangleNum*3*4];
+  float Az = Models::FloorsInternal::vertices[triangleNum*3*4+2];
+
+  float Bx = Models::FloorsInternal::vertices[triangleNum*3*4+4];
+  float Bz = Models::FloorsInternal::vertices[triangleNum*3*4+6];
+
+  float Cx = Models::FloorsInternal::vertices[triangleNum*3*4+8];
+  float Cz = Models::FloorsInternal::vertices[triangleNum*3*4+10];
+
+  glm::vec3 AB = glm::vec3(Bx-Ax, Bz-Az, 0);
+  glm::vec3 AC = glm::vec3(Cx-Ax, Cz-Az, 0);
+  glm::vec3 BC = glm::vec3(Cx-Bx, Cz-Bz ,0);
+  glm::vec3 AP = glm::vec3(position.x-Ax, position.z-Az,0);
+  glm::vec3 BP = glm::vec3(position.x-Bx, position.z-Bz,0);
+  glm::vec3 CP = glm::vec3(position.x-Cx, position.z-Cz,0);
+
+  float areaABC = length(cross(AB, AC));
+  float areaABP = length(cross(AB, AP));
+  float areaACP = length(cross(AC, CP));
+  float areaBCP = length(cross(BC, BP));
+
+  return areaABC - max(areaABP + areaACP, max(areaABP + areaBCP, areaBCP + areaACP));
 }
 
 //Initialization procedure
@@ -155,16 +189,40 @@ void drawScene(GLFWwindow* window, float angle_x, float angle_y, float deltaTime
                     );
   glm::vec3 up = glm::cross( right, direction );
 
-  position -= direction * angle_x;
-  position += right * angle_y;
+  glm::vec3 newPosition = position - direction * angle_x;
+  newPosition += right * angle_y;
 
-  glm::mat4 P = glm::perspective(40 * PI/180, aspect, 1.0f, 50.0f); //Compute projection matrix
+  float multiplier_x = 0.15f * ((angle_x > 0) - (angle_x < 0));
+  float multiplier_y = 0.15f * ((angle_y > 0) - (angle_y < 0));
+
+  glm::vec3 positionToCheck = newPosition - direction * multiplier_x;
+  positionToCheck += right * multiplier_y;
+
+  float res = isOnTriangle(currentTriangle, positionToCheck);
+
+  if(res < 0){
+    for(int j = 0; j < 1858; j++){
+      float newRes = isOnTriangle(j, positionToCheck);
+
+        if(newRes > res){
+          currentTriangle = j;
+          res = newRes;
+        }
+    }
+  }
+
+  newPosition.y = Models::FloorsInternal::vertices[currentTriangle*3*4+1] + 1.2;
+
+  if(cheatMode || (res >= 0 && abs(newPosition.y - position.y) < 0.4)){
+    position = newPosition;
+  }
+
+  glm::mat4 P = glm::perspective(40 * PI/180, aspect, 0.05f, 10.0f); //Compute projection matrix
 
   glm::mat4 V = glm::lookAt(
                   position,           // Camera is here
                   position+direction, // and looks here : at the same position, plus "direction"
                   up);                  // Head is up (set to 0,-1,0 to look upside-down)
-
 
   //Compute model matrix
   glm::mat4 M = glm::mat4(1.0f);
