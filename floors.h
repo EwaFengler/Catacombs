@@ -34,8 +34,6 @@ namespace Models {
 		extern float vertexNormals[];
 		extern float texCoords[];
 		extern unsigned int vertexCount;
-
-		extern short neighbors[];
 	}
 
 	class Floors: public Model {
